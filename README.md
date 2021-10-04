@@ -40,7 +40,9 @@ make libPlt_gSP.a
 $ cd ../bin
 
 $ make xfoil
+
 $ make pplot
+
 $ make pxplot
 
 Running Xfoil
