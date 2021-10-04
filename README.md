@@ -31,7 +31,7 @@ $ make -f Makefile_DP osgen
 
 If you get an error:
 clang: error: invalid version number in '-mmacosx-version-min=11.5'
-You need to reinstall the Xcode Command Line Tools, see guide below.
+You need to reinstall the Xcode Command Line Tools, see guide at the end of this file.
 
 $ cd ../../plotlib
 
@@ -42,18 +42,6 @@ $ cd ../bin
 $ make xfoil
 $ make pplot
 $ make pxplot
-
-
-Reinstall Command Line Tools
-============================
-
-$ sudo rm -rf /Library/Developer/CommandLineTools
-
-Note the sudo command will require your system password, no characters will appear as you type as a security measure. 
-
-Install Command Line Tools:
-$ xcode-select --install
-This will prompt you to run the installer and agree to license terms. This step can take a few minutes.
 
 Running Xfoil
 =============
@@ -103,3 +91,18 @@ The CPx plot will update. The data will be written to the NACA0012.txt file and 
 pplot
 
 Care must be taken to ensure what you obtain from Xfoil is meaningful. You may need in increase the number of interations etc.
+
+Reinstall Command Line Tools
+============================
+
+If you get an error:
+clang: error: invalid version number in '-mmacosx-version-min=11.5'
+Then you can reinstall the Command line Tools to fix the issue.
+
+$ sudo rm -rf /Library/Developer/CommandLineTools
+
+Note the sudo command will require your system password, no characters will appear as you type as a security measure. 
+
+Install Command Line Tools:
+$ xcode-select --install
+This will prompt you to run the installer and agree to license terms. This step can take a few minutes.
