@@ -7,14 +7,17 @@ Prerequisites
 Install Xcode from the Mac App Store
 
 Install Command Line Tools:
+
 $ xcode-select --install
 
 Install Homebrew (https://brew.sh)
 
 Use homebrew to install XQuartz (requires a log out/in) to allow Xfoil to display graphics.
+
 $ brew install xquartz
 
 Install gfortran which will be used to compile Xfoil
+
 $ brew gfortran
 
 Installation
