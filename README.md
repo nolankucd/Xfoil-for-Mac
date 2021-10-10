@@ -30,6 +30,7 @@ All make files have been updated to use relative paths so you shouldn't need to 
 $ cd Xfoil-for-Mac-main
 
 $ cd  orrs/bin
+
 $ make -f Makefile_DP osgen
 
 If you get an error:
