@@ -18,7 +18,7 @@ $ brew install xquartz
 
 Install gfortran which will be used to compile Xfoil
 
-$ brew gfortran
+$ brew install gfortran
 
 Installation
 ============
