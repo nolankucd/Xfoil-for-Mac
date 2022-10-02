@@ -74,7 +74,8 @@ Then to perform operating point calculations enter:
 
 oper
 
-You can use invisid or viscous solutons. .OPERi indicated invisid and .OPERv viscous mode.
+You can run either inviscid or viscous solutons. 
+.OPERi indicates inviscid and .OPERv viscous mode.
 When using viscous mode you need to provide the Reynolds number. You can switch between modes by entering v or i.
 
 The command
@@ -82,15 +83,15 @@ The command
 alfa N
 
 Will calculate and plot CP vs X plot for the input airfoil at angle of attack N.
-Use bl to plot boundary layer profiles.
+Use the comand bl to plot boundary layer profiles.
 
 The command
 
 hard
 
-will save the grpahics display to a postscript file stored in the runs directory.
+will save the graphics display to a postscript file stored in the runs directory.
 
-If you want to ru through several angle of attacks we need to accumulate data. To do this use the pacc command.
+If you want to run through several angle of attacks we need to accumulate data. To do this use the pacc command.
 Specify a filename such as NACA0012.txt. A dump file is optional. Now any calculations you run are stored to runs/NACA0012.txt.
 We can use aseq to run through a series of angles of attack. You will be asked for the min, max and increment angle.
 The CPx plot will update. The data will be written to the NACA0012.txt file and it can be plotted using
