@@ -91,10 +91,21 @@ hard
 
 will save the graphics display to a postscript file stored in the runs directory.
 
-If you want to run through several angle of attacks we need to accumulate data. To do this use the pacc command.
+If you want to run through several angle of attacks we need to accumulate data. To do this use the 
+
+pacc
+
+command.
+
 Specify a filename such as NACA0012.txt. A dump file is optional. Now any calculations you run are stored to runs/NACA0012.txt.
-We can use aseq to run through a series of angles of attack. You will be asked for the min, max and increment angle.
+
+We can use
+
+aseq
+
+to run through a series of angles of attack. You will be asked for the min, max and increment angle.
 The CPx plot will update. The data will be written to the NACA0012.txt file and it can be plotted using
+
 pplot
 
 Care must be taken to ensure what you obtain from Xfoil is meaningful. You may need in increase the number of interations etc.
