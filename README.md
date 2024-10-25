@@ -4,15 +4,13 @@ This is a fork of the venerable Xfoil with tweaks to allow installation on MacOS
 Prerequisites
 =============
 
-Install [homebrew](https://brew.sh)
-
 Install Xcode from the Mac App Store
 
 Install Command Line Tools:
 
 $ xcode-select --install
 
-Install Homebrew (https://brew.sh)
+Install [homebrew](https://brew.sh)
 
 Use homebrew to install XQuartz (requires a log out/in) to allow Xfoil to display graphics.
 
