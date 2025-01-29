@@ -39,7 +39,7 @@ You need to reinstall the Xcode Command Line Tools, see guide at the end of this
 
 $ cd ../../plotlib
 
-make libPlt_gSP.a
+$ make libPlt_gSP.a
 
 $ cd ../bin
 
