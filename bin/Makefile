@@ -143,15 +143,15 @@ clean:
 
 xfoil: $(XFOILOBJ) $(XUTILOBJ) $(OSOBJ)
 	$(FC) -o xfoil $(XFOILOBJ) $(XUTILOBJ) $(OSOBJ) $(PLTOBJ) $(PLTLIB) $(FTNLIB)
-	$(INSTALLCMD) xfoil $(BINDIR)
+	$(INSTALLCMD) xfoil $(BINDIR)0
 
 pxplot:	$(PXPLOTOBJ) $(XUTILOBJ)
 	$(FC) -o pxplot $(PXPLOTOBJ) $(XUTILOBJ) $(PLTOBJ) $(PLTLIB) $(FTNLIB)
-	$(INSTALLCMD) pxplot $(BINDIR)
+	$(INSTALLCMD) pxplot $(BINDIR)0
 
 pplot:	$(PPLOTOBJ) $(XUTILOBJ)
 	$(FC) -o pplot $(PPLOTOBJ) $(XUTILOBJ)  $(PLTOBJ) $(PLTLIB) $(FTNLIB)
-	$(INSTALLCMD) pplot $(BINDIR)
+	$(INSTALLCMD) pplot $(BINDIR)0
 
 blu: blu.o profil.o
 	$(FC) -o blu blu.o profil.o
